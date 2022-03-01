@@ -1,0 +1,47 @@
+/* Form Validation style */
+body {
+    background-color: whitesmoke;
+    margin-left: 40%;
+}
+
+/* Classes */
+form.registered-form {
+    display: table;
+}
+
+div.registered-form {
+    display: table-row;
+}
+
+.heading {
+    margin-left: 1%;
+}
+
+.button {
+    display: table-row;
+}
+
+/* label, input, select, textarea style */
+label, input, select, button, textarea {
+    display: table-cell;
+    margin-bottom: 20px;
+}
+
+label {
+    padding-right: 10px;
+    text-align: right;
+}
+textarea {
+    vertical-align: top;
+}
+
+/* placeholder text */
+
+::placeholder {
+    color: red;
+    font-style: italic;
+}
+
+a {
+    margin-right: 15px;
+}
