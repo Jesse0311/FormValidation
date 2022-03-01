@@ -40,6 +40,7 @@ textarea {
 ::placeholder {
     color: red;
     font-style: italic;
+    overflow-x:hidden;
 }
 
 a {
