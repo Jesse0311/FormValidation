@@ -19,6 +19,7 @@ div.registered-form {
 
 .button {
     display: table-row;
+    text-align: center;
 }
 
 /* label, input, select, textarea style */
@@ -40,7 +41,7 @@ textarea {
 ::placeholder {
     color: red;
     font-style: italic;
-    overflow-x:hidden;
+    overflow-x: visible;
 }
 
 a {
